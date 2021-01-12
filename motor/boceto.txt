@@ -1,0 +1,17 @@
+boceto
+
+utils
+	aliases
+	console
+	input
+	global
+	debug
+cmp
+	component <- padre
+	renderComponent
+man
+	componentManager <- padre
+	renderManager
+	entityManager
+	entity
+main

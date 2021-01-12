@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://res/images/caras.png" type="Texture" id=1]
+[ext_resource path="res://scripts/MiniCam.gd" type="Script" id=2]
+
+[node name="MiniCam" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 16.0
+margin_bottom = 8.0
+color = Color( 0.243137, 0.458824, 0.231373, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 4, 0 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 1 )
+centered = false
+hframes = 3
+[connection signal="gui_input" from="ColorRect" to="." method="_on_ColorRect_gui_input"]

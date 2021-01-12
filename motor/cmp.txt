@@ -1,0 +1,45 @@
+// es el padre de todos los managers
+class Manager {
+
+	int idType;
+
+	Manager()
+	{
+		id = getId();
+		RenCmp.idType = id;
+	}
+
+}
+
+class Cmp
+{
+	virtual int getIdType()=0;
+}
+
+class RenCmp {
+	static int getIdType;
+}
+
+template<CMP> void addComponent(idEntity)
+{
+	int index = getIndex<CMP>();
+	managers[index].addComponent(idEntity);
+}
+
+template<CMP> int getIndex()
+{
+	int index = 0;
+	CMP cmpAux;
+
+	for (int i = 0; i < managers.size(); ++i)
+	{
+		if (managers[i].getIdType() == cmpAux.getIdType())
+		{
+			index = cmpAux.getIdType();
+		}
+	}
+
+	return index;
+}
+
+

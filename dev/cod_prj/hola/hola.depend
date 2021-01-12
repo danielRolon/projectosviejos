@@ -1,0 +1,50 @@
+# depslib dependency file v1.0
+1595265595 source:c:\users\alumno\dev\cod_prj\hola\src\game.cpp
+	"game.h"
+	"keyboardMan.h"
+	"StdConio.h"
+	"objects/player.h"
+
+1595265098 c:\users\alumno\dev\cod_prj\hola\src\game.h
+	<vector>
+	<memory>
+	"objects/gameObject.h"
+
+1595219380 c:\users\alumno\dev\cod_prj\hola\src\keyboardman.h
+
+1595219361 source:c:\users\alumno\dev\cod_prj\hola\src\keyboardman.cpp
+	"keyboardMan.h"
+	<conio.h>
+
+1595225964 source:c:\users\alumno\dev\cod_prj\hola\src\main.cpp
+	<iostream>
+	"game.h"
+
+1595229603 c:\users\alumno\dev\cod_prj\hola\src\stdconio.h
+	<windows.h>
+
+1595229585 source:c:\users\alumno\dev\cod_prj\hola\src\stdconio.cpp
+	"stdConio.h"
+	<conio.h>
+	<stdlib.h>
+	<stdio.h>
+
+1595230281 source:c:\users\alumno\dev\cod_prj\hola\src\objects\bullet.cpp
+
+1595230292 source:c:\users\alumno\dev\cod_prj\hola\src\objects\enemy.cpp
+
+1595230266 source:c:\users\alumno\dev\cod_prj\hola\src\objects\wall.cpp
+
+1595267316 source:c:\users\alumno\dev\cod_prj\hola\src\objects\player.cpp
+	"objects/player.h"
+	"keyboardMan.h"
+
+1595267309 c:\users\alumno\dev\cod_prj\hola\src\objects\player.h
+	"objects/gameObject.h"
+
+1595267283 c:\users\alumno\dev\cod_prj\hola\src\objects\gameobject.h
+
+1595267291 source:c:\users\alumno\dev\cod_prj\hola\src\objects\gameobject.cpp
+	"objects/gameObject.h"
+	"StdConio.h"
+
